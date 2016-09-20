@@ -18,7 +18,7 @@ class starter
 
     /* Member functions */
     //Setter
-    function setname($_name){
+    function setName($_name){
         $this->name = $_name;
     }
 
@@ -29,11 +29,11 @@ class starter
     //Getter
 
     function getName(){
-        echo $this->name;
+        return $this->name;
     }
 
     function getAddress(){
-        echo $this->address;
+        return $this->address;
     }
 
 }
