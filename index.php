@@ -10,8 +10,17 @@
 /*
  * ***************START --STARTER CLASS TESTING****************
  */
+//Namespace declaration statement: It should bevery first statement in the script
+namespace concepts;
+
 include_once('includes/starter.php');
-$objStarter= new \concepts\starter();
+
+/*
+ * If you are not declearing name space on top of the script, Object statement will be like below
+ * $objStarter= new \concepts\starter();
+ *
+ */
+$objStarter= new starter();
 //Set Name and address in starter class
 $objStarter->setName("Indu Prakash Chaube");
 $objStarter->setAddress("Santa Brabara, CA, USA");
@@ -21,10 +30,6 @@ $address= $objStarter->getAddress();
 echo "<b>Name: </b>". $name;
 echo "<BR />";
 echo "<b>Address: </b>". $address;
-
-
-
-
 
 //***************END --STARTER CLASS TESTING****************
 
