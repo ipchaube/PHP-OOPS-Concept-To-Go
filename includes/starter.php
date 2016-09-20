@@ -12,6 +12,13 @@ namespace concepts;
 
 class starter
 {
+    function __construct() {
+        //Nothing to construct for now
+    }
+    function __destruct() {
+        //Nothing to destruct for now
+    }
+
     /* Member variables */
     var $name;
     var $address;
